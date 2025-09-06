@@ -1,0 +1,11 @@
+[package]
+name = "common"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+dirs.workspace = true
+thiserror.workspace = true
+serde_json.workspace = true
+indicatif.workspace = true
+md5.workspace = true

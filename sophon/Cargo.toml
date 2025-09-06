@@ -1,0 +1,21 @@
+[package]
+name = "sophon"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = {version = "1.47.1", features = ["rt-multi-thread", "macros"]}
+anyhow = "1.0.99"
+prost = "0.14.1"
+reqwest = "0.12.23"
+bytes = "1.10.1"
+dirs = "6.0.0" 
+futures = "0.3.31"
+rayon = "1.11.0"
+serde_json = "1.0.143"
+
+thiserror = "2.0.16"
+indicatif = "0.18.0"
+
+[build-dependencies]
+prost-build = "0.14.1"

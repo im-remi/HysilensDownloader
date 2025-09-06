@@ -1,0 +1,25 @@
+[workspace]
+members = ["common", "patcher", "patchmaker", "sophon"]
+resolver = "3"
+
+[workspace.package]
+edition = "2024"
+version = "0.1.0"
+
+[workspace.dependencies]
+tokio = {version = "1.47.1", features = ["rt-multi-thread", "macros"]}
+serde = {version = "1.0.219", features = ["derive"]}
+serde_json = "1.0.143"
+md5 = "0.8.0"
+thiserror = "2.0.16"
+prost = "0.14.1"
+dirs = "6.0.0" 
+indicatif = "0.18.0"
+rayon = "1.11.0"
+anyhow = "1.0.99"
+walkdir = "2.5.0"
+reqwest = "0.12.23"
+bytes = "1.10.1"
+
+common = {path = "common/"}
+sophon = {path = "sophon/"}
