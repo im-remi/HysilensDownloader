@@ -5,7 +5,7 @@ Some tools to download/patch Hoyoverse games.
 - `patcher` - Can be used to patch clients (via hdiff/ldiff) and verify integrity
 - `patchmaker` - Experimental tool used to generate hdiffs based on two folder contents
 - `sophon` - Experimental tool used to download sophon chunk clients and patches
-- 
+  
 More modules may be added in the future.
 
 ## Credits
